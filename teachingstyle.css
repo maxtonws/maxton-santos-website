@@ -7,7 +7,7 @@
     color: black;
 }
 .intro {
-    margin-top: 7vh;
+    margin-top: 5vh;
     font-size: 4vw;
     height: 5vw;
     overflow-y: hidden;
@@ -45,7 +45,7 @@
     font-size: 3vw;
     text-shadow: 3px 3px 2px #5c5959;
     color: #080606;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
 .body {
     font-size: 1.1vw;
@@ -123,6 +123,10 @@ a {
     background-color: #e5ff00;
     /* width: 7.5vw; */
 }
+.highlight-orange {
+    background-color: #ffae00;
+    /* width: 7.5vw; */
+}
 /* .mask-blue {
     left: 0vw;
     animation-name: mask;
@@ -159,5 +163,5 @@ a {
 } */
 .mission {
     background-color: #ade4ff; 
-    padding-inline: 10vw;
+    padding-inline: .5vh;
 }
