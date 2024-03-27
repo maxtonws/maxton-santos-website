@@ -16,10 +16,6 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 2px 2px 1px gray;
     animation-name: teachhead;
-    /*animation-duration: 11s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    */
     animation: teachhead 15s infinite;
 }
 .intro a {
@@ -27,16 +23,6 @@
     color: black;
 }
 @keyframes teachhead {
-    /*0% {
-        transform: scale(1.92);
-    }
-    50% {
-        transform: scale(2);
-    }
-    100% {
-        transform: scale(1.92);
-    }
-    */
     50% {font-size: 4.2vw;}
 }
 .header {
@@ -69,8 +55,7 @@
     width: 30%;
     padding: 1.5%;
   }
-  
-  /* Clear floats after image containers */
+
 .row::after {
     content: "";
     clear: both;
@@ -91,14 +76,6 @@
     text-align: center;
     margin-top: 3vh;
 }
-/* .mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    z-index: 2;
-} */
 .bits a {
     color:#000000 !important;
 }
@@ -109,58 +86,19 @@ a {
 
 .highlight-blue {
     background-color: #00bfff;
-    /* width: 7.5vw; */
 }
 .highlight-red {
     background-color: #ff0400;
-    /* width: 7.5vw; */
 }
 .highlight-green {
     background-color: #00b35f;
-    /* width: 7.5vw; */
 }
 .highlight-yellow {
     background-color: #e5ff00;
-    /* width: 7.5vw; */
 }
 .highlight-orange {
     background-color: #ffae00;
-    /* width: 7.5vw; */
 }
-/* .mask-blue {
-    left: 0vw;
-    animation-name: mask;
-    animation-duration: 1s;
-    background-color: #15647e;
-} */
-/* .mask-red {
-    left: 0vw;
-    animation-name: mask;
-    animation-duration: 1s;
-    background-color: #7a0a08;
-}
-.mask-green {
-    left: 0vw;
-    animation-name: mask;
-    animation-duration: 1s;
-    background-color: #0e7947;
-}
-.mask-yellow {
-    left: 0vw;
-    animation-name: mask;
-    animation-duration: 1s;
-    background-color: rgb(216, 167, 31);
-}
-@keyframes mask {
-    0% {
-        padding-left: 0vw;
-        padding-right: 0vw;
-    }
-    100% {
-        padding-left: 50vw;
-        padding-right: 50vw;
-    }
-} */
 .mission {
     background-color: #ade4ff; 
     padding-inline: .5vh;
